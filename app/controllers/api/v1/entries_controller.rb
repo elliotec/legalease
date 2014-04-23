@@ -2,7 +2,7 @@ class Api::V1::EntriesController < ApplicationController
   respond_to :json
 
   def index
-    respond_with Entry.all?
+    respond_with Entry.all
   end
 
   def show
